@@ -1,3 +1,4 @@
+
 # BluemobiLibrary
 
 [![CI Status](http://img.shields.io/travis/zzw19880707/BluemobiLibrary.svg?style=flat)](https://travis-ci.org/zzw19880707/BluemobiLibrary)
@@ -17,7 +18,7 @@ BluemobiLibrary is available through [CocoaPods](http://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "BluemobiLibrary"
+pod "BluemobiLibrary",:git=>'https://github.com/zzw19880707/BluemobiLibrary.git'
 ```
 
 ## Author
@@ -27,3 +28,4 @@ zzw19880707, zzw414851474@qq.com
 ## License
 
 BluemobiLibrary is available under the MIT license. See the LICENSE file for more info.
+
