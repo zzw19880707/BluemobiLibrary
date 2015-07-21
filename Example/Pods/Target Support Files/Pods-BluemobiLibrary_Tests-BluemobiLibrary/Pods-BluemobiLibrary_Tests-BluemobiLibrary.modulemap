@@ -1,0 +1,6 @@
+framework module BluemobiLibrary {
+  umbrella header "Pods-BluemobiLibrary_Tests-BluemobiLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
