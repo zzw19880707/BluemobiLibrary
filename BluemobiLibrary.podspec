@@ -10,18 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "BluemobiLibrary"
   s.version          = "0.1.0"
-  s.summary          = "A short description of BluemobiLibrary."
+  s.summary          = "BluemobiLibrary."
   s.description      = <<-DESC
-                       An optional longer description of BluemobiLibrary
+                       BluemobiLibrary
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BluemobiLibrary"
+  s.homepage         = "https://github.com/zzw19880707/BluemobiLibrary"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "zzw19880707" => "zzw414851474@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BluemobiLibrary.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/zzw19880707/BluemobiLibrary.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
