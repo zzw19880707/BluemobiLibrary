@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BluemobiLibrary_Example', :exclusive => true do
+  pod "BluemobiLibrary", :path => "../"
+end
+
+target 'BluemobiLibrary_Tests', :exclusive => true do
+  pod "BluemobiLibrary", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
